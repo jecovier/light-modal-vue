@@ -1,10 +1,10 @@
-# LightModal
+# LIGHTMODAL
 Light modal component for Vue, based on the Modal Component Example and added some features like:
 - close on outside click
 - slot support
 - some animations
 
-# ✔ Getting started
+## ✔ Getting started
 Please refer to [Official Documentation](https://bootstrap-vue.github.io) for setup guide, examples and documentation.
 
 Get the package:
@@ -20,7 +20,7 @@ import LightModal from 'light-modal-vue';
 Vue.component('light-modal', LightModal);
 ```
 
-#Integrate Animate.css:
+## Integrate Animate.css
 Get Animate.css:
 ```bash
 npm install animate.css
@@ -41,10 +41,10 @@ use it with LightModal
 ```
 
 
-# License
+## License
 MIT
 
 
 
-## Status
+#### Status
 This project is in an early stage of development. Any contribution is welcome :D
