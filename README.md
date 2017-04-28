@@ -1,4 +1,4 @@
-# LIGHTMODAL
+# LightModal for VUE 2
 Light modal component for Vue, based on the Modal Component Example and added some features like:
 - close on outside click
 - slot support
