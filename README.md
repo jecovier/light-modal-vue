@@ -6,7 +6,6 @@ Light modal component for Vue, based on the Modal Component Example and added so
 - support Bootstrap, but it works without Bootstrap too!
 
 ## ✔ Getting started
-Please refer to [Official Documentation](https://bootstrap-vue.github.io) for setup guide, examples and documentation.
 
 Get the package:
 ```bash
