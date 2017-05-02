@@ -11,18 +11,27 @@
 				class = "modal-wrapper">
 				<div
 					@click.stop
-					class  = "modal-container animated"
+					class  = "modal-content animated"
 					:class = "animation">
 					<div
 						class="modal-header">
 						<slot
 							name="modal-header">
-							{{title}}
 							<button
-								class  = "modal-default-button"
-								@click = "close">
-								X
+								type         = "button"
+								class        = "close"
+								data-dismiss = "modal"
+								aria-label   = "Close"
+								@click       = "close">
+								<span
+									aria-hidden="true">
+									&times;
+								</span>
 							</button>
+							<h4
+								class="modal-title">
+								{{title}}
+							</h4>
 						</slot>
 					</div>
 
