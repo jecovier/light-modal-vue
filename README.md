@@ -20,6 +20,34 @@ import LightModal from 'light-modal-vue';
 Vue.component('light-modal', LightModal);
 ```
 
+In your HTML you call it like
+
+```html
+<modal
+	v-show = "show_modal"
+	title  = "Title"
+	intro  = "intro_class"
+	outro  = "outro_class"
+	@close = "close_method">
+	<!-- HEADER -->
+	<div slot = "modal-header">
+		the header slot is optional
+	</div>
+	<!-- BODY -->
+	<div slot = "modal-body">
+		this is the body
+	</div>
+	<!-- FOOTER -->
+	<div slot = "modal-footer">
+		this is the footer
+	</div>
+</modal>
+```
+in this case the variable "show_modal" is controlling when the modal appears,
+intro it's the class associated when the modal show, and outro when the modal hide,
+close_method it's the callback for the close event.
+
+
 ## Integrate Animate.css
 Get Animate.css:
 ```bash
