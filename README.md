@@ -20,7 +20,7 @@ import LightModal from 'light-modal-vue';
 Vue.component('light-modal', LightModal);
 ```
 
-In your HTML you call it like
+In your HTML call it like
 
 ```html
 <modal
