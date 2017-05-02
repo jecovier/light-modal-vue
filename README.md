@@ -3,6 +3,7 @@ Light modal component for Vue, based on the Modal Component Example and added so
 - close on outside click
 - slot support
 - some animations
+- support Bootstrap, but it works without Bootstrap too!
 
 ## ✔ Getting started
 Please refer to [Official Documentation](https://bootstrap-vue.github.io) for setup guide, examples and documentation.
