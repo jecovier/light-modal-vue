@@ -17,7 +17,7 @@ Register LightModal in your app entrypoint:
 import Vue from 'vue'
 import LightModal from 'light-modal-vue';
 
-Vue.component('light-modal', LightModal);
+Vue.component('modal', LightModal);
 ```
 
 In your HTML call it like
