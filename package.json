@@ -1,6 +1,6 @@
 {
   "name": "light-modal-vue",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Light Modal for Vue 2",
   "main": "LightModal.vue",
   "scripts": {
